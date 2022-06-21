@@ -1,0 +1,6 @@
+__pycache__
+main.py
+dist/
+build/
+autoball.egg-info
+setup.py
