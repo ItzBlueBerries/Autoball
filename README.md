@@ -15,6 +15,16 @@ from autoball import Auto
 print(Auto.randoball(ver))
 ```
 
+### Custom Usage
+
+You can also create custom responses.
+```py
+from autoball import Custom
+
+print(Custom.customball(["Hello World", "Testing, Testing!"])) 
+# Will only work if you put it in an array though.
+```
+
 ### Discord.py Usage/Example
 
 ```py
@@ -35,6 +45,7 @@ bot.run("token here.")
 
 - `normal` | More normal responses.
 - `uwu` | Normal but uwu translated responses.
+- `caesar` | Default responses but caesar encrypted.
 
 ## Authors|Credits
 
